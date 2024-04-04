@@ -1,0 +1,57 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 15px 2%;
+}
+
+.Icon {
+    width: 30px;
+    cursor: pointer;
+}
+
+.logo {
+    width: 400px;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    display: inline-block;
+    margin: 10px 20px;
+    cursor: pointer;
+}
+
+.barra-pesquisa{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    background: #f1f1f1;
+    padding: 10px 20px;
+    border-radius: 40px;
+}
+
+.barra-pesquisa input{
+    padding: 6px;
+    border: 0;
+    outline: 0;
+    background-color: #f1f1f1;
+    font-size: 18px;
+    width: 450px;
+}
+
+.barra-pesquisa input::placeholder{
+    color: #1a1a1a;
+}
+
+#BarraIcon {
+    margin: 10px 20px;
+    width: 35px;
+}
+
+#close{
+    display: none;
+}
